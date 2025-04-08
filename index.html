@@ -10,20 +10,99 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="./imagens/icon.png" type="image/png">
+    <link rel="icon" href="./imagens/icon.png" type="image/png" />
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="/css/responsivo.css">
-
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="/css/responsivo.css" />
   </head>
-<body>
-  <header class="cabecalho">
-    <h1>CARDÁPIO DA SEMANA</h1>
-  </header>
-  <main class="cardápio-slider">
-    <button class="btn-seta btn-voltar" id="btn-voltar">
-      <img src="./imagens/seta.png" alt="seta para voltar a imagem" />
-    </button>
-</body>
+  <body>
+    <header class="cabecalho">
+      <h1>CARDÁPIO DA SEMANA</h1>
+    </header>
+    <main class="cardápio-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-semana">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Segunda-feira</h2>
+
+          <img
+            class="imagem-comida"
+            src="src/imagens/seuclope.png"
+            alt="Segunda"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">Pão com margarina e leite com achocolatado</p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">Terça-feira</h2>
+
+          <img
+            class="imagem-comida"
+            src="src/imagens/vamplena.png"
+            alt="Terça"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">Biscoito de maisena e vitamina de banana</p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <h2 class="nome">Quarta-feira</h2>
+
+          <img
+            class="imagem-comida"
+            src="src/imagens/jubileia.png"
+            alt="Quarta"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">Pão com queijo e café</p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome">Quinta-feira</h2>
+
+          <img
+            class="imagem-comida"
+            src="src/imagens/tempestade-solar.png"
+            alt="Quinta"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">Cuscuz com manteiga e suco de laranja</p>
+          </div>
+        </li>
+        <li class="cartao fundo-5">
+          <h2 class="nome">Sexta-feira</h2>
+
+          <img
+            class="imagem-comida"
+            src="src/imagens/loggineto.png"
+            alt="Sexta"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">Pão com ovo e leite com achocolatado</p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
 </html>
