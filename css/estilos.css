@@ -1,6 +1,6 @@
 body {
   font-family: "Outfit", sans-serif;
-  background-image: url("../imagens/fundo-base.png");
+  background-image: url("../imagens/Design\ sem\ nome.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -12,7 +12,7 @@ body {
 }
 
 .cabecalho h1 {
-  color: #F65A2D;
+  color: #FCCD27;
   font-size: 45px;
   letter-spacing: 10px;
   text-transform: uppercase;
